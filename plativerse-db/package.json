@@ -1,0 +1,36 @@
+{
+  "name": "plativerse-db",
+  "version": "1.0.0",
+  "description": "plataforma de iot",
+  "main": "index.js",
+  "scripts": {
+    "test": "DEBUG=platziverse:* nyc --reporter=lcov ava tests/* --verbose",
+    "setup": "DEBUG=platziverse:* node setup.js",
+    "lint": "standard --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jukilo123/realtime_test.git"
+  },
+  "author": "JAIME GOMEZ",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jukilo123/realtime_test/issues"
+  },
+  "homepage": "https://github.com/jukilo123/realtime_test#readme",
+  "devDependencies": {
+    "ava": "^3.15.0",
+    "nyc": "^15.1.0",
+    "sqlite3": "^5.0.1",
+    "standard": "^16.0.3"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "debug": "^4.3.1",
+    "defaults": "^1.0.3",
+    "inquirer": "^7.3.3",
+    "pg": "^8.5.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.5.0"
+  }
+}
